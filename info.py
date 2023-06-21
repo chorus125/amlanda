@@ -23,7 +23,7 @@ WEBHOOK = bool(environ.get("WEBHOOK", True)) # for web support on/off
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '26305247'))
 API_HASH = environ.get('API_HASH', '20ca7e6687c281e11782856c7efd0ff7')
-BOT_TOKEN = environ.get('BOT_TOKEN', '6239798308:AAF-x-VpDPyWZDMPDvKnhhQ4RSfPLK0m5Vc')
+BOT_TOKEN = environ.get('BOT_TOKEN', '6239798308:AAHPSeRVvLdzg4ROnB6gr6OH4SHTLTyOYPE')
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
